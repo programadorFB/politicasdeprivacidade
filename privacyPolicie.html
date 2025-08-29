@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Privacidade | {{NOME_DA_EMPRESA}}</title>
+  <meta name="description" content="Política de Privacidade da {{NOME_DA_EMPRESA}} em conformidade com a LGPD (Lei 13.709/18) e, quando aplicável, GDPR." />
+  <meta name="theme-color" content="#0f172a" />
+  <meta property="og:title" content="Política de Privacidade | {{NOME_DA_EMPRESA}}" />
+  <meta property="og:description" content="Como coletamos, usamos e protegemos seus dados pessoais." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://seu-dominio.com/politica-privacidade" />
+  <meta property="og:image" content="https://seu-dominio.com/og-image.png" />
+  <style>
+    :root{
+      --bg:#0b1020; --card:#0f1530; --accent:#60a5fa; --text:#e5e7eb; --muted:#94a3b8; --ring:#1f39a7;
+      --radius:16px; --shadow:0 10px 30px rgba(2,6,23,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans',sans-serif;background:
+      radial-gradient(1200px 600px at 100% -10%, rgba(96,165,250,.15), transparent 60%),
+      radial-gradient(1000px 600px at -20% 120%, rgba(56,189,248,.12), transparent 60%), var(--bg);
+      color:var(--text); line-height:1.6}
+    .container{max-width:1024px;margin:auto;padding:24px}
+    header{position:sticky;top:0;background:linear-gradient(180deg, rgba(11,16,32,.95), rgba(11,16,32,.75), transparent);backdrop-filter: blur(8px);z-index:10}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,#60a5fa,#38bdf8);box-shadow:0 0 0 2px rgba(255,255,255,.1) inset}
+    h1{font-size:clamp(28px,4vw,40px);margin:0 0 8px}
+    h2{font-size:clamp(20px,3vw,26px);margin:28px 0 12px}
+    p,li{color:var(--text)}
+    .muted{color:var(--muted)}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.08); border-radius:var(--radius); box-shadow:var(--shadow); padding:24px}
+    .grid{display:grid;gap:16px}
+    @media (min-width:960px){ .grid{grid-template-columns:1fr 320px} }
+    .toc{position:sticky; top:80px; align-self:start}
+    .toc a{display:block;padding:8px 10px;border-radius:10px;color:var(--muted);text-decoration:none}
+    .toc a:hover{background:rgba(255,255,255,.05);color:var(--text)}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;background:rgba(96,165,250,.12);border:1px solid rgba(96,165,250,.35);color:#cfe5ff;font-weight:600}
+    .kbd{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;background:#0a0f22;border:1px solid rgba(255,255,255,.1);padding:2px 6px;border-radius:6px}
+    .footer{margin-top:40px;padding:24px 0;border-top:1px solid rgba(255,255,255,.08);color:var(--muted);font-size:14px}
+    .btn{appearance:none;border:none;border-radius:999px;padding:10px 14px;background:linear-gradient(135deg,#60a5fa,#3b82f6);color:white;font-weight:700;cursor:pointer;box-shadow:0 8px 24px rgba(59,130,246,.35)}
+    .btn:focus{outline:2px solid var(--ring);outline-offset:2px}
+    .tag{display:inline-flex;gap:6px;align-items:center;padding:4px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.1);color:var(--muted);font-size:12px}
+    .section{scroll-margin-top:80px}
+    .legal-table{width:100%;border-collapse:collapse;background:transparent;border-radius:12px;overflow:hidden;margin:8px 0}
+    .legal-table th,.legal-table td{border-bottom:1px solid rgba(255,255,255,.08);padding:10px;text-align:left;font-size:14px}
+    .legal-table th{color:#dbeafe}
+    .updated{font-size:14px;color:#cbd5e1}
+    .highlight{color:#cde3ff}
+  </style>
+  <!-- Dados estruturados básicos -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PrivacyPolicy",
+    "name": "Política de Privacidade - Cronos",
+    "url": "https://seu-dominio.com/politica-privacidade",
+    "publisher": {"@type": "Organization", "name": "{{NOME_DA_EMPRESA}}"},
+    "inLanguage": "pt-BR",
+    "dateModified": "2025-08-28"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:16px;">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div class="badge" title="Conforme LGPD"><span>⚖️</span> LGPD Ready</div>
+          <h1>Política de Privacidade</h1>
+          <div class="updated">Última atualização: <time datetime="2025-08-28">28/08/2025</time></div>
+        </div>
+      </div>
+      <button class="btn" onclick="window.print()" aria-label="Imprimir ou salvar em PDF">🖨️ Imprimir</button>
+    </div>
+  </header>
+
+  <main class="container grid">
+    <article class="card">
+      <p class="muted">Esta Política explica como a <span class="highlight">{{NOME_DA_EMPRESA}}</span> ("nós") coleta, usa, compartilha e protege dados pessoais ao oferecer <span class="highlight">{{DESCRICAO_DO_SERVICO}}</span>. Cumprimos a Lei nº 13.709/2018 (LGPD) e, quando aplicável, o Regulamento (UE) 2016/679 (GDPR).</p>
+
+      <section id="controlador" class="section">
+        <h2>1. Controlador e contato</h2>
+        <table class="legal-table" role="table" aria-label="Dados do controlador">
+
+          <tr><th>E-mail</th><td><a href="mailto:{{EMAIL_DPO}}">devfuzabalta@gmail.com</a></td></tr>
+          <tr><th>Encarregado (DPO)</th><td>(<a href="mailto:{{EMAIL_DPO}}">Desenvolvedor Roger Allan</a>)</td></tr>
+        </table>
+      </section>
+
+      <section id="coleta" class="section">
+        <h2>2. Quais dados coletamos</h2>
+        <ul>
+          <li>Identificação: nome, e-mail, telefone, documento (quando necessário).</li>
+          <li>Dados de uso: logs de acesso, IP, identificadores de dispositivo e cookies.</li>
+          <li>Transacionais: histórico de compras/assinaturas e meios de pagamento (tokenizados por provedores).</li>
+          <li>Suporte: mensagens e anexos enviados em canais de atendimento.</li>
+        </ul>
+        <p class="muted"><span class="kbd">Dica</span> Ajuste esta lista para refletir exatamente o que seu produto coleta.</p>
+      </section>
+
+      <section id="base-legal" class="section">
+        <h2>3. Bases legais</h2>
+        <p>Tratamos dados com base em:</p>
+        <ul>
+          <li><strong>Execução de contrato</strong> – para fornecer o serviço solicitado.</li>
+          <li><strong>Consentimento</strong> – para comunicações de marketing (opt-in e opt-out a qualquer momento).</li>
+          <li><strong>Legítimo interesse</strong> – para melhorar recursos, prevenir fraudes e manter a segurança.</li>
+          <li><strong>Cumprimento de obrigação legal/regulatória</strong> – armazenamento de registros de acesso (Marco Civil da Internet).</li>
+        </ul>
+      </section>
+
+      <section id="uso" class="section">
+        <h2>4. Como usamos os dados</h2>
+        <ul>
+          <li>Operar e manter nossa plataforma e contas de usuário.</li>
+          <li>Personalizar experiência e recomendar conteúdo.</li>
+          <li>Processar pagamentos via parceiros (ex.: gateways) sem acesso ao número completo do cartão.</li>
+          <li>Comunicar novidades, avisos de segurança e suporte.</li>
+          <li>Analytics, métricas de performance e prevenção de fraudes.</li>
+        </ul>
+      </section>
+
+      <section id="compartilhamento" class="section">
+        <h2>5. Compartilhamento</h2>
+        <p>Podemos compartilhar dados com:</p>
+        <ul>
+          <li>Provedores de infraestrutura, hospedagem, analytics e atendimento.</li>
+          <li>Processadores de pagamento e antifraude.</li>
+          <li>Autoridades quando requisitado por lei.</li>
+        </ul>
+        <p>Exigimos de todos os operadores o cumprimento da LGPD e acordos de processamento de dados.</p>
+      </section>
+
+      <section id="direitos" class="section">
+        <h2>6. Seus direitos (LGPD)</h2>
+        <p>Você pode solicitar: confirmação de tratamento, acesso, correção, anonimização, portabilidade, eliminação, informação sobre compartilhamentos e revogação de consentimento.</p>
+        <p>Para exercer, contate <a href="mailto:{{EMAIL_DPO}}">{{EMAIL_DPO}}</a>. Responderemos em prazo razoável.</p>
+      </section>
+
+      <section id="cookies" class="section">
+        <h2>7. Cookies e tecnologias similares</h2>
+        <p>Usamos cookies para autenticação, preferências e analytics. Você pode gerenciar cookies no navegador. Para cookies não essenciais, exibimos um banner de consentimento.</p>
+      </section>
+
+      <section id="seguranca" class="section">
+        <h2>8. Segurança da informação</h2>
+        <ul>
+          <li>Criptografia em trânsito (HTTPS/TLS).</li>
+          <li>Controles de acesso e autenticação.</li>
+          <li>Backups e monitoração.</li>
+          <li>Políticas internas de privacidade e segurança.</li>
+        </ul>
+      </section>
+
+      <section id="retencao" class="section">
+        <h2>9. Retenção e eliminação</h2>
+        <p>Reteremos dados somente pelo período necessário às finalidades e prazos legais. Após esse período, dados serão eliminados ou anonimizados com segurança.</p>
+      </section>
+
+      <section id="transferencias" class="section">
+        <h2>10. Transferências internacionais</h2>
+        <p>Se houver transferência para fora do Brasil, adotaremos salvaguardas adequadas (ex.: cláusulas contratuais ou padrões equivalentes).</p>
+      </section>
+
+      <section id="menores" class="section">
+        <h2>11. Crianças e adolescentes</h2>
+        <p>Não coletamos dados de menores de 13 anos sem consentimento de responsável legal. Se você acredita que um menor nos forneceu dados, contate-nos.</p>
+      </section>
+
+      <section id="atualizacoes" class="section">
+        <h2>12. Alterações desta Política</h2>
+        <p>Poderemos atualizar esta Política para refletir mudanças legais, técnicas ou comerciais. Quando necessário, notificaremos os usuários. A data de revisão ficará sempre indicada no topo.</p>
+      </section>
+
+      <section id="contato" class="section">
+        <h2>13. Como falar conosco</h2>
+        <p>E-mail do DPO/Encarregado: <a href="mailto:{{EMAIL_DPO}}">{{EMAIL_DPO}}</a></p>
+        <p>Canal de requisições de titulares: <a href="{{URL_CANAL_TITULAR}}">{{URL_CANAL_TITULAR}}</a></p>
+      </section>
+
+      <p class="muted">Versão: v1.0 — substitua os campos <span class="kbd">{{CHAVES_EM_CHAVES}}</span> antes de publicar.</p>
+    </article>
+
+    <aside class="toc card" aria-label="Navegação da política">
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
+        <span class="tag">LGPD</span>
+        <span class="tag">GDPR</span>
+        <span class="tag">Cookies</span>
+        <span class="tag">Segurança</span>
+      </div>
+      <nav>
+        <a href="#controlador">1. Controlador</a>
+        <a href="#coleta">2. Dados coletados</a>
+        <a href="#base-legal">3. Bases legais</a>
+        <a href="#uso">4. Uso dos dados</a>
+        <a href="#compartilhamento">5. Compartilhamento</a>
+        <a href="#direitos">6. Direitos</a>
+        <a href="#cookies">7. Cookies</a>
+        <a href="#seguranca">8. Segurança</a>
+        <a href="#retencao">9. Retenção</a>
+        <a href="#transferencias">10. Transferências</a>
+        <a href="#menores">11. Menores</a>
+        <a href="#atualizacoes">12. Alterações</a>
+        <a href="#contato">13. Contato</a>
+      </nav>
+    </aside>
+  </main>
+
+  <footer class="container footer">
+    <div>© <span id="y"></span> {{NOME_DA_EMPRESA}} — Todos os direitos reservados. | <a href="#" style="color:#cfe5ff">Termos de Uso</a></div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
